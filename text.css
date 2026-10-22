@@ -5,9 +5,9 @@
 }
 body {
   width: 100%;
-  background-image: url(Images/Forest.png);
+  background-image: url(Images/chair.jpg);
   background-position: -10% 10%;
-  background-size: 50cqmax;
+  background-size: 40cqmax;
 }
 .container {
   margin: 15px 10px;
