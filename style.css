@@ -25,9 +25,19 @@ body {
 
 .text {
   font-size: 1.95rem;
-  width: 60%;
+  width: 90%;
+  max-width: 650px;
+  margin: 0 auto;
   color: white;
   text-align: center;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 1.3rem;
+    width: 95%;
+  }
 }
 button {
   margin: 5px;
